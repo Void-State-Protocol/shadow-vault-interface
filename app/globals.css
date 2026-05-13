@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-void: #0a0a0f;
+  --color-surface: #0f0f1a;
+  --color-border: #1e1e2e;
+  --color-neon: #00ff9d;
+  --color-neon-dim: #00ff9d33;
+  --color-warn: #ff6b35;
+  --color-muted: #4a4a6a;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+}
+
+body {
+  background-color: var(--color-void);
+  color: #e0e0ff;
+  font-family: var(--font-mono);
+}
+
+.glow {
+  box-shadow: 0 0 12px var(--color-neon-dim);
+}
